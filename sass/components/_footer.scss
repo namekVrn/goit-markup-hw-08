@@ -1,0 +1,15 @@
+footer{
+    background: $bg-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+// .flex{
+//     display: flex;
+//     align-items: baseline;
+// }
+.reset-margin{
+    margin: 0;
+}
+@import "../components/footer/footer__logo";
+@import "../components/footer/footer__social--connect";
+@import "../components/footer/footer__social--subscription";

@@ -1,0 +1,46 @@
+.flex-center{
+    display:flex;
+    align-items: center;
+}
+body{
+    font-family: $font--ferst;
+    padding: 0;
+    margin: 0;
+}
+.section-portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+img{
+    display: block;
+}
+*{
+box-sizing: border-box;
+}
+ul{
+    list-style: none;   
+}
+a{
+    text-decoration: none;
+}
+input, label {
+    display: block;
+}
+.advantages__hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
